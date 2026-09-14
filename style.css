@@ -1,0 +1,18 @@
+body {
+    background-color: paleturquoise;
+}
+div {
+    background-color: aliceblue;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    border-width: 2px;
+    border-color: black;
+    border-radius:  10px;
+    border-style: solid;
+    margin: 10px;
+}
+p {
+    font-size: large;
+}
