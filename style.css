@@ -1,18 +1,71 @@
+.hgroup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 body {
-    background-color: paleturquoise;
+    background-color: #0A0E36;
+    color: white;
+    margin: 0;
 }
-div {
-    background-color: aliceblue;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-    text-align: left;
-    border-width: 2px;
-    border-color: black;
-    border-radius:  10px;
-    border-style: solid;
-    margin: 10px;
+
+header {
+    background-color: #FFBB11;
+    max-width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #F28E13;
 }
-p {
+header h1 {
+    margin: 0px;
+}
+header img {
+    margin: 0px;
+    height: 50px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+main p {
     font-size: large;
+}
+main div {
+    padding: 0px 20px;
+}
+main img {
+    border-radius: 15px;
+}
+
+footer {
+    background-color: black;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    background-color: #F28E13;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #F28E13;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 7px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
