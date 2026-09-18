@@ -2,6 +2,11 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    padding: 0px;
+}
+
+.hgroup p {
+    margin: 0px;
 }
 
 body {
@@ -38,7 +43,7 @@ main div {
     padding: 0px 20px;
 }
 main img {
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 footer {
@@ -57,16 +62,59 @@ nav a {
     font-size: 20px;
 }
 
+table {
+    margin: 15px auto;
+    border: #F28E13 solid 5px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td {
+    padding: 10px;
+    border-bottom: #F28E13 solid 5px;
+    border-right:  #F28E13 solid 5px;
+    width: 45%;
+}
+
+th {
+    padding: 10px;
+    border: #F28E13 solid 5px;
+    border-bottom-width: 8px;
+    background-color: #FFBB11;
+    font-size: xx-large;
+}
+
+table h3 {
+    margin: 0px;
+}
+
 .button {
     background-color: #F28E13;
     color: white;
     width: fit-content;
     padding: 10px;
     margin: 10px auto;
-    border: black solid 3px;
     border-radius: 7px;
     font-size: 25px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.bubble_group {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.bubble {
+    background-color: #FFBB11;
+    border: #F28E13 solid 3px;
+    border-radius: 7px;
+    justify-items: center;
+    flex: 1;
+}
+
+.bubble img {
+    border-radius: 0px;
 }

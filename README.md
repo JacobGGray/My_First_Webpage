@@ -1,6 +1,6 @@
 # My_First_Webpage
 
-# ---  TAGS ---
+# --- HTML ---
 # html
 # head
 # title
@@ -13,3 +13,5 @@
 # li - list item
 # ol - ordered list
 # ul - unordered list
+
+# --- CSS ---
